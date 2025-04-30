@@ -1,0 +1,49 @@
+<IfModule mod_headers.c>
+Header set Cache-Control "private"
+</IfModule>
+
+RewriteEngine on
+
+RewriteRule ^Welcome  login.php [NC,L]
+
+
+
+RewriteRule ^Terms  terms.php [NC,L]
+RewriteRule ^Privacypolicy  privacypolicy.php [NC,L]
+RewriteRule ^Aboutus  aboutus.php [NC,L]
+RewriteRule ^Contactus  contactus.php [NC,L]
+
+
+RewriteRule ^Dashboard  index.php [NC,L]
+
+RewriteRule ^Activitylog  activitylog.php [NC,L]
+
+
+RewriteRule ^Changepassword  updatepass.php [NC,L]
+RewriteRule ^Profile  profile.php [NC,L]
+RewriteRule ^Changeprofile  viewprofile.php [NC,L]
+RewriteRule ^Webinfo  webinfo.php [NC,L]
+RewriteRule ^Customization  websettings.php [NC,L]
+
+RewriteRule ^Add-Category  category.php [NC,L]
+
+RewriteRule ^Add-Sub-Category  sub_category.php [NC,L]
+
+RewriteRule ^Add-Expense  expense.php [NC,L]
+
+RewriteRule ^View-Expense  view_expense.php [NC,L]
+
+RewriteRule ^Add-Income  income.php [NC,L]
+
+RewriteRule ^Report-Expense  expense_report.php [NC,L]
+
+RewriteRule ^Report-Income  income_report.php [NC,L]
+
+RewriteRule ^Report  income_expense_report.php [NC,L]
+
+RewriteRule ^Denied  not_found.php [NC,L]
+
+RewriteRule ^Give-Money  expense_cleareance.php [NC,L]
+
+RewriteRule ^Withdraw  withdraw.php [NC,L]
+
