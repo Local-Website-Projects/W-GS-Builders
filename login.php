@@ -103,7 +103,7 @@ if (isset($_POST['login'])) {
 ?>
 <head>
     <meta charset="utf-8"/>
-    <title>নেজারত শাখা, জেলা প্রশাসকের কার্যালয় খুলনা।</title>
+    <title>ERP</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta content="A fully featured admin theme which can be used to build CRM, CMS, etc." name="description"/>
     <meta content="Coderthemes" name="author"/>
@@ -151,12 +151,6 @@ if (isset($_POST['login'])) {
                 <!-- Logo -->
                 <div class="auth-brand text-center text-lg-start">
                     <div class="auth-logo">
-                        <a href="index.html" class="logo logo-dark text-center">
-                                    <span class="logo-lg">
-                                        <img src="<?php echo $logo; ?>" alt="" height="80">
-                                    </span>
-                        </a>
-                        <h4>জেলা প্রশাসকের কার্যালয়, খুলনা</h4>
 
 
                     </div>
